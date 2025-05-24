@@ -78,7 +78,7 @@ twine upload dist/*
 输入你的 PyPI 用户名和密码即可。
 
 💡 最新版本twine可能是OIDC 的API token，在pypi的个人账号下创建 API token，
-并在本地保存配置，可以长期免输入token使用：
+并在`~/.pypirc`本地保存配置，可以长期免输入token使用：
 ```toml
 [distutils]
 index-servers =

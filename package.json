@@ -1,5 +1,36 @@
 {
+  "name": "pripy",
+  "version": "0.1.1",
+  "description": "my personal pypthon util collections",
+  "keywords": [
+    "utils",
+    "mylog",
+    "zip",
+    "sqlite3",
+    "database"
+  ],
+  "homepage": "https://github.com/linjonh/pripy-utils#readme",
+  "bugs": {
+    "url": "https://github.com/linjonh/pripy-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linjonh/pripy-utils.git"
+  },
+  "license": "MIT",
+  "author": "linjonh",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "python tests/test.py",
+    "install_twine": "pip install twine",
+    "build": "rm -rf dist && python3 -m build",
+    "upload": "python3 -m twine upload dist/*"
+  },
   "dependencies": {
-    "cgi": "^0.3.1"
-  }
+  },
+  "devDependencies": {}
 }
