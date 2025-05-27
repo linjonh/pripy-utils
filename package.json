@@ -1,6 +1,6 @@
 {
   "name": "pripy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "my personal pypthon util collections",
   "keywords": [
     "utils",
@@ -26,9 +26,9 @@
   },
   "scripts": {
     "test": "python tests/test.py",
-    "install_twine": "pip install twine",
-    "build": "rm -rf dist && python3 -m build",
-    "upload": "python3 -m twine upload dist/*"
+    "install": "pip install twin build",
+    "build": "rm -rf dist && python -m build",
+    "upload": "python -m twine upload dist/*"
   },
   "dependencies": {
   },
