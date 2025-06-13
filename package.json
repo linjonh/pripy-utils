@@ -26,7 +26,7 @@
   },
   "scripts": {
     "test": "python tests/test.py",
-    "install": "pip install twin build",
+    "install": "pip install twine build",
     "build": "rm -rf dist && python -m build",
     "upload": "python -m twine upload dist/*"
   },
